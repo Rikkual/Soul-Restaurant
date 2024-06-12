@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PayDepositDialog</class>
+ <widget class="QDialog" name="PayDepositDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>确认订单</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>353</width>
+     <height>284</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <item row="0" column="1" colspan="6">
+     <widget class="QLabel" name="usernameLabel">
+      <property name="text">
+       <string>UserName</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lbOrderID">
+      <property name="text">
+       <string>订单号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4" colspan="3">
+     <widget class="QSpinBox" name="personNumberSpinBox"/>
+    </item>
+    <item row="6" column="4" colspan="3">
+     <widget class="QPushButton" name="btnMeal">
+      <property name="text">
+       <string>订餐信息</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="3">
+     <widget class="QLabel" name="cntPriceLabel">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="6">
+     <widget class="QDateTimeEdit" name="orderTimeEdit"/>
+    </item>
+    <item row="1" column="1" colspan="6">
+     <widget class="QLabel" name="orderIDLabel">
+      <property name="text">
+       <string>1145141919810</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="6">
+     <widget class="QDateTimeEdit" name="reserveTimeEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lbTableType">
+      <property name="text">
+       <string>餐桌编号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3" colspan="4">
+     <widget class="QPushButton" name="btnPayDeposit">
+      <property name="text">
+       <string>支付定金</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lbUserName">
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" colspan="6">
+     <widget class="QLabel" name="depositLabel">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="3">
+     <widget class="QPushButton" name="btnCancel">
+      <property name="text">
+       <string>返回订单</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" colspan="6">
+     <widget class="QLabel" name="tableDepositLabel">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lbReserveTime">
+      <property name="text">
+       <string>预约时间</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lbMealBool">
+      <property name="text">
+       <string>餐食定金</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lbMealState">
+      <property name="text">
+       <string>合计定金</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lbTableState_2">
+      <property name="text">
+       <string>餐桌定金</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lbOrderTime">
+      <property name="text">
+       <string>订单时间</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="lbPersonNumber">
+      <property name="text">
+       <string>用餐人数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QLineEdit" name="tableIDEdit">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>115</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>115</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
